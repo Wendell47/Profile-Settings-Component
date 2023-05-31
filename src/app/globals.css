@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.btn svg{
+  transition: all 140ms ease-in;
+}
+.btn:hover svg{
+ transform: rotate(10deg);
+}
